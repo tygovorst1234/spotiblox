@@ -185,9 +185,6 @@ local Logo = Instance.new("ImageLabel")
 Spotify.Name = "Spotify"
 Spotify.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 Spotify.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-Spotify.Draggable = true
-Spotify.Active = true
-Spotify.Selectable = true
 Spotify.ResetOnSpawn = false
 
 Main.Name = "Main"
@@ -196,6 +193,9 @@ Main.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
 Main.BorderSizePixel = 0
 Main.Position = UDim2.new(0, 261, 0, 109)
 Main.Size = UDim2.new(0, 725, 0, 375)
+Main.Draggable = true
+Main.Active = true
+Main.Selectable = true
 
 Bottom.Name = "Bottom"
 Bottom.Parent = Main
