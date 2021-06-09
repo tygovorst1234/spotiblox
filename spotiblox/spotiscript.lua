@@ -193,9 +193,6 @@ Main.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
 Main.BorderSizePixel = 0
 Main.Position = UDim2.new(0, 261, 0, 109)
 Main.Size = UDim2.new(0, 725, 0, 375)
-Main.Draggable = true
-Main.Active = true
-Main.Selectable = true
 
 Bottom.Name = "Bottom"
 Bottom.Parent = Main
